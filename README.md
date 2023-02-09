@@ -1,9 +1,11 @@
 # FastAPI in Render
 
-uvicorn main:app --reload
+### Repo for how to Deploy a FastAPI to Render.com
 
-### Start command
+-   Build Command
 
-### file setting
+    `pip install -r requirements.txt`
 
-### env setting
+-   Start command
+
+    `uvicorn main:app --host 0.0.0.0 --port 10000`
